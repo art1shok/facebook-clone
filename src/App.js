@@ -13,9 +13,9 @@ function App() {
       <BrowserRouter>
         <Header />
         <Switch>
-          <Route path="/profile" component={Profile} />
-          <Route path="/messages" component={Messages} />
-          <Route path="/news" component={Messages} />
+          <Route path="/facebook-clone/profile" component={Profile} />
+          <Route path="/facebook-clone/messages" component={Messages} />
+          <Route path="/facebook-clone/news" component={Messages} />
         </Switch>
         <Footer />
       </BrowserRouter>
